@@ -39,8 +39,6 @@ h2 {
 	width: 100%;
 	text-align: center;
 	letter-spacing: 4px;
-}
-.border {
 	color: #fff;
 	font-family: "Poiret One", sans-serif;
 	font-size: 40px;
@@ -67,4 +65,11 @@ h2 {
 }
 .section-dark {
 	background-color: #282E34;
+}
+
+
+@media (max-width:568px) {
+	.image1, .image2, .image3 {
+		background-attachment: scroll; /*remove parallax for mobile devices*/
+	}
 }
