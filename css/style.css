@@ -1,4 +1,4 @@
-.container-fluid {
+.container-fluid, .row {
 	margin: 0;
 	padding: 0;
 }
